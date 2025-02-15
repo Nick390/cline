@@ -1,9 +1,32 @@
 # Changelog
 
+## 3.4.0
+
+### Minor Changes
+
+-   ee06c08: add alibaba qwen2.5 coder models
+-   7b6a3d2: Advanced Setting to disable browser tool
+-   82eba4d: Add extension setting for chromium executable path
+-   2a894d8: Add new ability to send message that is in Input field during Plan/Act Mode Change to Act.
+-   ee06c08: add alibaba qwen2.5-coder models
+-   e534c3d: Added api key field for litellm api provider in settings
+-   e8a2e88: qwen platform adds deepseek-r1/v3 support
+-   1cc1c26: Adding .clineignore guide
+-   0434b5c: Advanced Configuration for OpenAI Compatible Providers
+-   69ff71b: Allowing the user to give feedback when approving a tool use.
+
+### Patch Changes
+
+-   66d5a32: Add translation to CODE_OF_CONDUCT, CONTRIBUTING and README to portuguese pt-BR.
+-   8e12bdb: Add support for qwen vl models
+-   584af64: Add terminal context mention
+-   d67c7e3: Add git context mention
+-   a996488: Fix AWS Bedrock Profiles. When configuring the AnthropicBedrock Client you must pass AWS credentials in a specific way, otherwise the client will default to reading credentials from the default AWS profile.
+
 ## [3.3.2]
 
 -   Fix bug where OpenRouter requests would periodically not return cost/token stats, leading to context window limit errors
--   Make checkpoints more visible and keep track of restored checkpoints 
+-   Make checkpoints more visible and keep track of restored checkpoints
 
 ## [3.3.0]
 
